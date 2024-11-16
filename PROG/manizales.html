@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZLS</title>
+    <script>
+        function actualizarTexto1() {
+           document.getElementById("texto1").innerHTML = 'ESTA ES LA CATEDRAL';
+           document.getElementById("imagen1").innerHTML = '<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn159uNydGGIvZ6b_Uh95KOs9YaiTpdhG7H44FDW_BI5FZR-lWBvUq_z4CQXW2Oy7VIRotyy1Z0kyRGX1xqHEd-GK48ZUGBPLT_8sdnkiF5juS4wCmxk7l_aXvuiRszhWtg4H0Q73kh-E/s1600/IMG_20190103_083405.jpg" width=400 height=500>';
+     
+          
+         }
+         function actualizarTexto2() {
+             const divTexto = document.getElementById("texto1").innerHTML = 'ESTA ES LA GALERIA';
+             document.getElementById("imagen1").innerHTML = '<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKuw8l5fcRdFZ4JRm8vKKL6fyOXcdT7x4AspOCXcIKDGJ2RFVbN7-SXvfs3anttNexV2cDmeMg6R1yQPAY47ilmVBMOwP3v6p1iSFPVP2sT9GgFQMf7LONA6kBaUw6dgrZ_pWW1v0Aca-WuF-8xZHk0I3vDpNr41kERa-sP-s2ICPx2KER3-l0skj3hw/s4000/IMG_20221119_095127.jpg" width=400 height=500> ';
+         }
+         function actualizarTexto3() {
+             const divTexto = document.getElementById("texto1").innerHTML = 'ESTA ES CHIPRE';
+             document.getElementById("imagen1").innerHTML = '<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm25MF7thajvBJS78QyOJb00hwXdxlbB_sn2ZlKRkZnxYeZjiWzvMM3cZn6d5JaFsSFEOLYX6pk4fn7dtEU3PphBrNHPi-x6Z3R_8zEtnWjEHP_uliHNiVh1iEzVo5-EYeHlS3Tj73LRJI/s1600/manizales20.jpg" width=400 height=500>';
+         }
+     </script>
+</head>
+
+<body>
+    <h1> Sitios de Manizales</h1>
+    <table border="1">
+        <tr>
+            <td width="30%">Button
+                <table border="1">
+                    <tr>
+                        <td><button type="button" onclick="actualizarTexto1">Catedral</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="actualizarTexto2">Galeria</button></td>
+                    </tr>    
+                    <tr>
+                        <td><button type="button" onclick="actualizarTexto3">Chipre</button></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <div id="texto1">cualquiercosa</div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
